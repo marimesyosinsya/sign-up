@@ -24,7 +24,7 @@ document.getElementById('submitButton').addEventListener('click', function(event
     };
 
     // fetchを使ってデータをPOSTで送信
-    fetch('', {
+    fetch('https://marimesyosinsya.github.io/sign-up/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
